@@ -1,0 +1,19 @@
+a = input('Mark: ');
+if(a>=80)
+    disp('Grade: A+');
+end
+if(a>=70 && a<=79)
+    disp('Grade: A');
+end
+if(a>=60 && a<=69)
+    disp('Grade: A-');
+end
+if(a>=50 && a<=59)
+    disp('Grade: B+');
+end
+if(a>=40 && a<=49)
+    disp('Grade: B');
+end
+if(a>=30 && a<=39)
+    disp('Tor lekha pora korar dorkar nai bhai');
+end

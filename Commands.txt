@@ -1,0 +1,5 @@
+clc -> To clear command window
+% -> for comment
+clear all -> clear all workspace
+clear a -> clear variable 'a'
+

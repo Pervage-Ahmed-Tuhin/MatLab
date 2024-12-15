@@ -1,0 +1,43 @@
+Script file -> Open from file m file. Save file using extension .m
+
+num = input('Enter a number: ');
+disp("Your typed number");
+disp(num);
+
+// Taking String
+
+A = input('Enter a string: ', 's');
+disp("Your typed string:");
+disp(A);
+
+txt = 'Name';
+disp(txt, 'xyz'); --> Will give error
+
+For Multiple print
+
+%s-> String
+%c -> Character
+%d -> Integer
+%f -> Float
+%e -> Scientific Notation
+\n -> New Line
+\t -> Tab
+\\ -> Backslash print '\'
+\' -> Single Quote print '
+\" -> Double Quote print "
+%% -> Print %
+% -> Print %
+
+fprintf('Hello %s\n', 'World');
+
+fprintf('Hello %c\n', 'A');
+
+fprintf('Hello %d\n', 10);
+
+fprintf('Hello %f\n', 10.5);
+
+fprintf('Hello %e\n', 10.5);
+
+
+
+

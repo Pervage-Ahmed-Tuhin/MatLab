@@ -1,0 +1,18 @@
+A = input('Enter your coefficient matrix: ')
+b = input('Enter your source vector: ')
+N = length(b)
+X = zeros(N,1)
+d  = det(A)
+Aold = A
+
+if d~=0
+    for i = 1:N
+        A(:,i) = b
+        X(i) = det(A)/d
+        A = Aold
+    end
+    disp('Solution using cramers rule: ')
+    disp(X)
+else
+    disp('Cramers rule not executed')
+end

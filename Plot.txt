@@ -1,0 +1,66 @@
+a = 0:.1:2*pi;
+
+b = 0: .1: 2*pi;
+
+y = sin(a);
+
+z = cos(b);
+
+plot(a,y) 
+hold on 
+plot(b,z)
+
+//
+
+x = 0:.3:2*pi;
+
+Subplot(2,3,1); plot(sin(x));
+Subplot(2,3,2); plot(cos(x));
+Subplot(2,3,3); plot(sin(x)*sin(x));
+Subplot(2,3,4); plot(sin(x)*cos(x));
+Subplot(2,3,5); plot(cos(x)*cos(x), 'y--');
+
+//
+
+
+x = 0:.3:2*pi;
+y = sin(x)
+
+plot(x,y)
+xlabel('x-axis')
+ylabel('y-axis')
+title('Sine Graph')
+
+//
+
+y = yellow -> plot(x,y,'r)
+g = green
+r = red
+b = blue
+c = cyan
+wz = white
+k = black
+m = magenta
+
+
+// 
+
+Symbol              Line Style
+
+-                   Solid
+--                  Dashed
+:                   Dotted
+-.                  Dash-dot
+o                   Circle
++                   Plus
+*                   Asterisk
+.                   Point
+x                   Cross
+s                   Square
+d                   Diamond 
+^                   Upward-pointing triangle
+
+Example:
+
+plot(x,y,'r--o')
+plot(x,y,'g:', x, z, 'b:');

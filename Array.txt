@@ -1,0 +1,20 @@
+number = [1,2,3,4,5,6]
+number(index)
+
+--> Here the array starts from index 1
+
+// Transpose
+// Transpose of a matrix is obtained by interchanging rows and columns.\
+=> number'
+
+
+//Increment Array
+x = 1:2:10
+
+x = [1 8 9 4];
+
+=> max(x)
+=> min(x)
+=> sum(x)
+
+=> sort(x)

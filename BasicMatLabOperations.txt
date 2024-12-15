@@ -1,0 +1,32 @@
+% Addition
+a = 5 + 3;
+
+% Subtraction
+b = 10 - 4;
+
+% Multiplication
+c = 7 * 2;
+
+% Division
+d = 20 / 4;
+
+% Square Root
+e = sqrt(16);
+
+% Exponentiation
+f = 2^3;
+
+% mod
+mod(a,b)
+
+% complex
+complex(a,b)
+
+format long = 1.2345678
+=> 1.2345678
+
+format short 
+=> 1.23456
+
+
+

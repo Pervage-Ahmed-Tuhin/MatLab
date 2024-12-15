@@ -1,0 +1,5 @@
+u =input('Use: ');
+perUnitCost = 5;
+if(u>80)
+    disp(u*perUnitCost + perUnitCost*u*0.15);
+end

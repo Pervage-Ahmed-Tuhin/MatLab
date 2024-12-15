@@ -1,0 +1,11 @@
+% For loop
+for i = 1:5
+    disp(['Iteration: ', num2str(i)]);
+end
+
+% custom increment loop
+
+
+for i = 0:3:90
+    fprintf('%d', i);
+end

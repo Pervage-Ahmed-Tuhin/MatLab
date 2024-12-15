@@ -1,0 +1,9 @@
+x = input('Enter your age: ','s');
+if(x>10)
+disp('You can come in bro!');
+end
+if(x<10)
+    disp('Get a life bro');
+end
+
+

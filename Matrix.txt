@@ -1,0 +1,57 @@
+a = [1 2 3, 4 5 6, 7 8 9];
+
+a = 1 2 3
+    4 5 6
+    7 8 9
+
+// Some built in functions
+
+=> zeroes(row,column)
+=> ones(row,column)
+=> eye(row,column)
+=> size(a) => Returns the size of the matrix
+=> rand(row,column)
+=> randi([min,max],row,column)
+=> round(a) => Round off to nearest integer
+=> ceil(a) => Round off to nearest integer greater than or equal to the number
+=> floor(a) => Round off to nearest integer less than or equal to the number
+=> fix(a) => Round off to nearest integer towards zero
+
+// Matrix Operations
+
+a*b => Matrix multiplication
+a.^2 => Square of each element
+a.^3 => Cube of each element
+a.^b => Power of each element
+a.*b => Element-wise multiplication
+a./b => Element-wise division
+a.\b => Element-wise division
+a+b => Element-wise addition
+
+
+Matrix = [1 2 3, 4 5 6, 7 8 9];
+
+max(Matrix) => Maximum element in the matrix
+min(Matrix) => Minimum element in the matrix
+sum(Matrix) => Sum of all elements in the matrix
+prod(Matrix) => Product of all elements in the matrix
+mean(Matrix) => Mean of all elements in the matrix
+
+
+Matrix = [1 2 3, 4 5 6, 7 8 9];
+
+sort(Matrix) => Sorts the matrix in ascending order
+sort(Matrix, 'descend') => Sorts the matrix in descending order
+sort(Matrix, 2) => Sorts the matrix row-wise
+sort(Matrix, 1) => Sorts the matrix column-wise
+
+Matrix = [1 2 3, 4 5 6, 7 8 9];
+
+max(Matrix) => Maximum element in the matrix
+
+
+// Plot
+
+x = -1:0:1;
+y = x+2;
+plot(x,y)
